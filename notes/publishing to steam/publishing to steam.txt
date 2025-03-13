@@ -1,0 +1,39 @@
+https://partner.steamgames.com/doc/gettingstarted
+https://partner.steamgames.com/doc/sdk#2
+
+https://partner.steamgames.com/doc/sdk/uploading
+
+C:\SteamSDK\steamworks_sdk_159\sdk\tools\ContentBuilder\content
+
+
+Download the latest steamworks SDK
+
+Acquire App ID from Steamworks
+
+	Find it on the app landing page
+	https://partner.steamgames.com/apps/landing/3073510
+	
+	A build is uploaded content to steam.  It can contain one or more depots.
+	On the build page you can create app branches, these can be used for beta builds
+	
+	A depot is what steam uses as a package of file for steam to download
+	Find the depot id here:
+	https://partner.steamgames.com/store/packagelanding/1092111
+	
+	Place all the files for the new app version into the content folder:
+	C:\SteamSDK\steamworks_sdk_159\sdk\tools\ContentBuilder\content
+	
+	Open the steampipeGUI tool: C:\SteamSDK\steamworks_sdk_159\sdk\tools\SteamPipeGUI
+	https://www.youtube.com/watch?v=0TH5sKvGI_A
+	
+	NOTE: Since the output goes to a command prompt, the Steam Login must have quotes if there's a space
+	e.g. "desmou x"
+	
+	You can view your newly uploaded depot in steamworks here:
+	https://partner.steamgames.com/apps/builds/3073510
+	
+	For the build that was uploaded, select an app branch from the dropdown
+	Click Preview Change, Set Build Live Now
+	
+	Your game will now be found in your steam library
+	I had to restart the steam client or I recieved a "no internet connection error" when trying to install the game

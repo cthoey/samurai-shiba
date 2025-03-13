@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_swoosh_5",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.36,
+  "name":"snd_swoosh_5",
+  "parent":{
+    "name":"swoosh",
+    "path":"folders/Sounds/rm_gameplay/combat/swoosh.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_swoosh_5.mp3",
+  "type":0,
+  "volume":1.0,
+}

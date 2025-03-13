@@ -1,0 +1,1 @@
+obj_rm_gameplay_controller.current_state = GAME_STATE.START_SUSPENSE_TIMER;

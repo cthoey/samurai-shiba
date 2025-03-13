@@ -1,0 +1,47 @@
+https://manual.gamemaker.io/monthly/en/Introduction/Compiling.htm
+
+Step -1:
+	Download the latest Steamworks SDK
+	https://partner.steamgames.com/downloads/list
+	
+	Place it here: C:\SteamSDK
+
+Step 0: 
+	Update changelog
+
+Step 1:
+	Game Options > Platform Settings > Update version number for all relevant platforms
+	
+Step 2: 
+	Clean the project (as suggest in the docs)
+	Brush Icon in the toolbar or Build > Clean
+	
+Step 2: 
+	Git push for new version
+	
+Step 3:
+
+	*** WINDOWS ***
+	Update Steamworks
+	https://github.com/YoYoGames/GMEXT-Steamworks/wiki/guides
+	
+	NOTE: The "version" displayed is the GMEXT-Steamworks extension version, NOT your app version
+	
+	Update the SDK path:
+		C:\SteamSDK\steamworks_sdk_159\sdk
+		
+	Enter the Steamworks App ID
+		3073510
+	
+	Build > Create Executable
+	Package As Zip (for steam)
+	Package As Installer (for manual distribution)
+	
+	NOTE:
+		Issue encountered, seemingly producing an old version of game, not current
+		https://www.reddit.com/r/gamemaker/comments/y7ce0s/creating_executable_builds_an_older_executable/
+		
+		Don't worry about this.  For some reason launching the exe was launching the PREVIOUS STEAM BUILD
+		Once you upload the latest build via SteamPipeGUI, the newly exported version will take (bc it's also being launched via steam)
+		
+		
